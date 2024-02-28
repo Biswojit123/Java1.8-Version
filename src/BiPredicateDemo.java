@@ -25,5 +25,12 @@ public class BiPredicateDemo {
             System.out.println(i3);
        }
 
+       //Another Example
+
+       BiPredicate<Integer,String> bipred = (i,s)-> i == s.length() ;
+
+
+       System.out.println(bipred.test(13,"Biswojit jena"));
+
     }
 }
